@@ -1,3 +1,60 @@
+/*
+Array
+
+ Un array es un conjunto de datos que se pueden almacenar en una sola variable. Un arreglo es una estructura de datos que podemos definir como una coleccion de variables (que pueden ser diferentes, pero con un mismo contexto).
+
+ */
+
+ //Variables que estan "sueltas"
+ let nombre = "Felipe";
+ let edad = 31;
+ let puesto = "instructor";
+
+ //Usar un array (arreglo) para "juntar" nuestras variables
+ //Agregamos los elementos al Array, separados por coma
+ let personasDeLaCH31 = ["Felipe", "Jose Angel", "Marco", "Evelyn", "Alejandro"];
+
+ //Podemos almacenar cualquier tipo de dato en un array 
+ let cosasRandom = ["Pelota", 31, true, undefined, null];
+ console.log(typeof(cosasRandom)); //object
+ console.log(typeof(personasDeLaCH31));
+
+ //Al imprimir el tipo de datos de nuestro arreglo, obtenemos un object porque los arrays son objetos (despues veremos que tenemos muchos tipos de objetos)
+
+
+//Los arrgelos al ser objetos cuentan con metodos que nos permiten manipularlos
+
+
+//Ya que tengo mi arreglo, como podemos acceder a una informacion?
+//Para mostrar la cantidad de elements que tengo en un arreglo, usamos un metodo llamado Length
+
+
+
+//Metodo Legth para mostrar los elementos de un array
+console.log(personasDeLaCH31.length); //me da como resultado un 5 porque tengo 5 "elementos" en la CH31, pero tengo 4 posiciones, es decir, 0,1,2,3,4 
+
+
+
+//Declarar un array
+[5, 4, 3, 2, 1]
+
+//Inicializar un array
+let cuentaRegresiva = [5, 4, 3, 2, 1];
+
+
+//Aceder a un elemento en especifico
+
+console.log(personasDeLaCH31[0]);//Felipe
+console.log(personasDeLaCH31[25]);//undefinded, porque el elemento aun no existe 
+
+//Tambien podemos aaceder a un elemento de mi arreglo por medio de una variable 
+
+//Declaro el indice en una variable
+let index = 4;
+
+//Paso a esta vriable como indice del arreglo 
+console.log(personasDeLaCH31[index]); //Alejandro. porque en la posicion 4 tenemos a Alejandro 
+
 //Ejemplo de un array para el consultorio dental
 
 let pacientes = [];
